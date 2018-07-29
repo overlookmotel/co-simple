@@ -29,8 +29,8 @@ So, if you're on a version of Node which doesn't support async/await, you can us
 const co = require('co-simple');
 
 const foo = co( function*(a, b, c) {
-	const res = yield Promise.resolve(a * b * c);
-	return res;
+  const res = yield Promise.resolve(a * b * c);
+  return res;
 } );
 ```
 
@@ -38,8 +38,8 @@ const foo = co( function*(a, b, c) {
 
 ```js
 const foo = async function(a, b, c) {
-	const res = await Promise.resolve(a * b * c);
-	return res;
+  const res = await Promise.resolve(a * b * c);
+  return res;
 };
 ```
 
