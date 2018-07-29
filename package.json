@@ -13,10 +13,10 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/co-simple/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "istanbul": "^0.4.5",
