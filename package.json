@@ -1,6 +1,6 @@
 {
   "name": "co-simple",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Coroutines from generator functions",
   "main": "./lib/",
   "author": {
